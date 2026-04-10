@@ -32,8 +32,6 @@ Utilize o menu lateral para explorar as seções do nosso trabalho:
 
 **<h2>Equipe</h2>**
 
-<h2>Equipe</h2>
-
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; text-align: center; margin-top: 20px;">
 
   <div style="width: 150px;">
