@@ -183,40 +183,37 @@
   <div id="app"></div>
   <script>
   window.$docsify = {
-  name: 'GCES · GovHub',
-  repo: 'https://github.com/luisa12ll/GCES-GovHub-relatorios',
-  
-  // CONFIGURAÇÕES DE CARREGAMENTO
-  // Se o seu index.html está DENTRO da pasta docs, use './'
-  basePath: './', 
-  relativeURLs: true,
-  loadSidebar: true,
-  loadNavbar: true,
-  coverpage: true,
-  onlyCover: false,
-  auto2top: true,
+    name: 'GCES · GovHub',
+    repo: 'https://github.com/luisa12ll/GCES-GovHub-relatorios',
+    
+    basePath: '', 
+    relativeURLs: true,
+    loadSidebar: true,
+    loadNavbar: true,
+    mergeNavbar: true,
+    coverpage: true,
+    onlyCover: false,
+    auto2top: true,
 
-  // NAVEGAÇÃO E SUMÁRIO
-  subMaxLevel: 2,
-  sidebarDisplayLevel: 0,
-  alias: {
-    '/.*/_sidebar.md': '/_sidebar.md',
-    '/.*/_navbar.md': '/_navbar.md'
-  },
+    alias: {
+      '/.*/_sidebar.md': '/_sidebar.md',
+      '/.*/_navbar.md': '/_navbar.md'
+    },
 
-  // PLUGINS E TEMA
-  themeColor: '#4F14A0',
-  search: { 
-    placeholder: 'Buscar...', 
-    noData: 'Nenhum resultado.', 
-    depth: 3 
-  },
-  pagination: { 
-    previousText: 'Anterior', 
-    nextText: 'Próxima', 
-    crossChapter: true 
+    subMaxLevel: 2,
+    sidebarDisplayLevel: 0,
+    themeColor: '#4F14A0',
+    search: { 
+      placeholder: 'Buscar...', 
+      noData: 'Nenhum resultado.', 
+      depth: 3 
+    },
+    pagination: { 
+      previousText: 'Anterior', 
+      nextText: 'Próxima', 
+      crossChapter: true 
+    }
   }
-}
   </script>
   
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
