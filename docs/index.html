@@ -183,19 +183,40 @@
   <div id="app"></div>
   <script>
   window.$docsify = {
-    name: 'GCES · GovHub',
-    repo: 'https://github.com/luisa12ll/GCES-GovHub-relatorios',
-    loadSidebar: true,
-    onlyCover: false,
-    sidebarDisplayLevel: 0,
-    loadNavbar: true,
-    coverpage: true,
-    auto2top: true,
-    subMaxLevel: 2,
-    search: { placeholder: 'Buscar...', noData: 'Nenhum resultado.', depth: 3 },
-    themeColor: '#4F14A0', /* O Roxo voltou */
-    pagination: { previousText: 'Anterior', nextText: 'Próxima', crossChapter: true, crossChapterText: false }
+  name: 'GCES · GovHub',
+  repo: 'https://github.com/luisa12ll/GCES-GovHub-relatorios',
+  
+  // CONFIGURAÇÕES DE CARREGAMENTO
+  // Se o seu index.html está DENTRO da pasta docs, use './'
+  basePath: './', 
+  relativeURLs: true,
+  loadSidebar: true,
+  loadNavbar: true,
+  coverpage: true,
+  onlyCover: false,
+  auto2top: true,
+
+  // NAVEGAÇÃO E SUMÁRIO
+  subMaxLevel: 2,
+  sidebarDisplayLevel: 0,
+  alias: {
+    '/.*/_sidebar.md': '/_sidebar.md',
+    '/.*/_navbar.md': '/_navbar.md'
+  },
+
+  // PLUGINS E TEMA
+  themeColor: '#4F14A0',
+  search: { 
+    placeholder: 'Buscar...', 
+    noData: 'Nenhum resultado.', 
+    depth: 3 
+  },
+  pagination: { 
+    previousText: 'Anterior', 
+    nextText: 'Próxima', 
+    crossChapter: true 
   }
+}
   </script>
   
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>

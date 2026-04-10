@@ -1,8 +1,8 @@
 # GCES · GovHub
 
-**Contribuições open source ao Gov Hub BR** <br>
+**Contribuições open source ao Gov Hub BR**
 Transformando dados públicos em informações estratégicas.
-Desenvolvido pelo **Lab Livre · UnB** <br>
+Desenvolvido pelo **Lab Livre · UnB**
 
 Disciplina de Gerência de Configuração e Evolução de Software
 

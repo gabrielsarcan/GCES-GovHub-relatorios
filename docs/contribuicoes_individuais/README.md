@@ -10,7 +10,7 @@ Este espaço é dedicado ao registro da jornada individual de cada integrante da
 Abaixo estão listados os 17 contribuidores deste projeto. Clique no nome ou no link do documento para visualizar o progresso individual.
 
 | Integrante | Matrícula | Diário de Bordo |
-| :--- | :--- | :--- |
+| :---: | :--- | :--- |
 | **[Ana Letícia Melo Pereira]()** | 211031584 | [Ver Relatório](/contribuicoes_individuais/ana_leticia.md) |
 | **[Anna Clara Cardoso Evangelista Brandão](https://github.com/annacbrandao)** | 222006534 |[Ver Relatório](/contribuicoes_individuais/anna_clara.md) |
 | **[Artur de Camargos Rodrigues](https://github.com/Arturdcr)** | 221038785 | [Ver Relatório](/contribuicoes_individuais/artur_camargos.md) |
