@@ -19,8 +19,8 @@ Foco integral em configurar, inicializar e diagnosticar a infraestrutura princip
 | Data  | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
 | ----- | --------- | --------------------------------- | --------------- | ------ |
 | 20/04 | Criação do fork | Código | [Link](https://github.com/gabrielsarcan/GCES-GovHub-relatorios) | Concluído |
-| 20/04 | Estudo das políticas de contribuição e diretrizes do projeto | Estudo | Guia de Contribuição | Concluído |
-| 20/04 | Configuração do ambiente local | Código | Guia de Instalação | Concluído |
+| 20/04 | Estudo das políticas de contribuição e diretrizes do projeto | Estudo | [Guia de Contribuição](https://gov-hub.io/govhub/comunidade/guia-contribuicao/) | Concluído |
+| 20/04 | Configuração do ambiente local | Código | [Guia de Instalação](https://gov-hub.io/govhub/documentacao/instalacao/#make-test) | Concluído |
 
 
 
@@ -57,14 +57,6 @@ Configuração das Variáveis Ambientais no Airflow mapeando `airflow_orgao` par
 <p align="center"><i><b>Fonte:</b> Gabriel Saraiva Canabrava</i></p>
 </details>
 
-<details>
-<summary><span style="font-size: 1.25em; font-weight: bold; cursor: pointer;">4. Carga Analítica Pronta via SQL Lab</span></summary>
-
-Demonstração do Superset enxergando finalmente a tabela consultada via banco interno com sucesso, como resultado conclusivo da engenharia de dados (Airflow e dbt) rodando.
-
-![Superset Carga Analítica](assets/superset.png)
-<p align="center"><i><b>Fonte:</b> Gabriel Saraiva Canabrava</i></p>
-</details>
 
 
 ### Maiores Avanços
@@ -83,6 +75,6 @@ Demonstração do Superset enxergando finalmente a tabela consultada via banco i
 * Identificação clara de dependências base do Python formatados para Data Environments com bibliotecas cruciais como o SQLAlchemy.
 
 ### Plano Pessoal para a Próxima Sprint
-* [ ] Esboçar e prototipar meu primeiro dashboard analítico com os indicadores de contratos no Superset.
-* [ ] Estudar o repositório secundário referente as validações em dbt e propor novos modelos base.
-* [ ] Registrar *Issue* formal do meu diagnóstico do `psycopg2` para propor melhorias definitivas à esteira de setup CI do ecossistema principal.
+* [ ] Buscar good first issues para começar a contribuir.
+* [ ] Contribuir com pelo menos 1 PR.
+* [ ] Participar da revisão de código de um colega.
