@@ -29,14 +29,24 @@ Para consolidar a configuração do ambiente e validar as atividades no projeto 
 #### 1. Containers Docker em Execução
 Resultado do comando `docker-compose up -d` mostrando o status saudável (healthy) e o download das imagens, provando que a stack completa do Data Warehouse (Airflow, Jupyter, PostgreSQL e Superset) foi montada corretamente.
 
-![Containers Docker](./assets/status_docker.png)  
+![Pull das imagens](./assets/status_docker_01.png)
+![Containers ativos](./assets/status_docker_02.png)
 *Fonte: Maria Eduarda Denis Duarte*
 
 #### 2. Interface do Airflow Validada
 Painel de login do Apache Airflow em execução local (localhost:8080). A página foi habilitada após a configuração manual das variáveis de ambiente e do arquivo `.env`, permitindo o acesso ao orquestrador de DAGs.
 
 #### 2. Interface do Airflow Validada
+Acesso garantido à interface web do Apache Airflow em localhost:8080.
+
 ![Interface Airflow](./assets/airflow_login.png)  
+*Fonte: Maria Eduarda Denis Duarte*
+
+#### 3. Mapeamento da Comunidade
+Análise das demandas atuais e etiquetas de padronização utilizadas pelos mantenedores.
+
+![Issues Mapeadas](./assets/mapeamento_issues.png)
+![Labels de Padronização](./assets/labels_comunidade.png)
 *Fonte: Maria Eduarda Denis Duarte*
 
 ---
